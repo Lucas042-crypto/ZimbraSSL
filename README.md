@@ -2,6 +2,10 @@
 
 Script tem como sua principal função incluir e renovar o certificado SSL Letencrypt do zimbra automaticamente.
 
+Faça o download do repositório letsencrypt no caminho
+
+sudo git clone https://github.com/letsencrypt/letsencrypt /usr/local/sbin/letsencrypt
+
 Basta colocar no crontab do linux ou executar da seguinte forma:
 
 00 00 * * * /usr/local/sbin/renew.sh dominio
