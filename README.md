@@ -8,7 +8,13 @@ sudo git clone https://github.com/letsencrypt/letsencrypt /usr/local/sbin/letsen
 
 Basta colocar no crontab do linux ou executar da seguinte forma:
 
+Crontab
+
 00 00 * * * /usr/local/sbin/renew.sh dominio
+
+Manual
+
+/usr/local/sbin/renew.sh dominio
 
 Ele busca direto do site:
 
