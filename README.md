@@ -20,7 +20,7 @@ Ele busca direto do site:
 
 https://www.identrust.com/dst-root-ca-x3
 
-A chave root CA e ja faz tudo automatizado. Foi testado e homologado em 3 servidores zimbra diferentes.
+A chave root CA e ja faz tudo automatizado. Foi testado e homologado no CENTOS 7 em 3 servidores zimbra diferentes.
 
 Espero que gostem!
 
